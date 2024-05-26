@@ -8,7 +8,7 @@ $$\tilde{r}_j = \frac{S_j(1) - S_j(0)}{S_j(0)}.$$
 В задаче мы хотим найти вектор $w$:$$w_j =  \frac{N_j S_j(0)}{S_p(0)}, \hspace{0.5cm} S_p(0) = \sum_{n=1}^{N}{N_nS_n(0)}.$$
 Здесь $N_j$ -- число приобретённых бумаг j-го типа (может быть отрицательным, что означает короткую позицию).
 Наконец, формальная постановка:
-$$\displaystyle\minimize_w \hspace{1mm}\frac{1}{2}w^TVw$$
+$$\displaystyle\min_w \hspace{1mm}\frac{1}{2}w^TVw$$
 $$w^Te + (1-w^T\mathbb{I})r(w) = e_p,$$
 $$r(w) = \begin{cases}
 r_l, & 1 - w^T\mathbb{I} >= 0,\\
