@@ -12,9 +12,10 @@ $$w_j =  \frac{N_j S_j(0)}{S_p(0)}, \\ S_p(0) = \sum_{n=1}^{N}{N_nS_n(0)}$$
 $$\displaystyle\min_w \hspace{1mm}\frac{1}{2}w^TVw$$
 $$w^Te+(1-w^T\mathbb{I})r(w)=e_p$$
 \begin{equation}
-r(w) = \begin{cases}
-r_l, & 1 - w^T\mathbb{I} >= 0,\\
-r_b, & 1 - w^T\mathbb{I} < 0.
+r(w) = 
+\begin{cases}
+  r_l & 1 - w^T\mathbb{I} >= 0 \\
+  r_b & 1 - w^T\mathbb{I} < 0
 \end{cases}
 \end[equation}
 Здесь $V$ - ковариационная матрица, $e_p$ - ожидаемая доходность портфеля, которую мы хотим получить, $r_l$ и $r_b$ - ставки доходности безрискового актива в случае длинной и короткой позиций соответственно.
