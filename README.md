@@ -3,5 +3,7 @@
 Классическая задача Марковица звучит так: имеем N рисковых активов, хотим получить определенную ожидаемую доходность всего портфеля при минимальных рисках.\
 По формулам [этой статьи](https://www.researchgate.net/publication/226896075_Portfolio_Selection_Theory_with_Different_Interest_Rates_for_Borrowing_and_Leading)  я написала класс модели Марковица, которая умеет работать с безрисковым активом.\
 Модель может не только выдавать оптимальные веса, но и строить график всех решений:
-<img src="https://github.com/neirosetochka/Markowitz-model/assets/72963340/4aa5bbaf-bfce-4b06-8e9d-9c782cb993aa" width=60%> \
-Может быть полезно для дальнейших исследований.
+<p align="center">
+<img src="https://github.com/neirosetochka/Markowitz-model/assets/72963340/4aa5bbaf-bfce-4b06-8e9d-9c782cb993aa" width=60%> 
+</p>\
+Может быть полезно для дальнейших исследований в портфельной теории.
